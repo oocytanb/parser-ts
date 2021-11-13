@@ -6,7 +6,7 @@ import { Alternative2 } from 'fp-ts/lib/Alternative'
 import { Applicative2 } from 'fp-ts/lib/Applicative'
 import * as A from 'fp-ts/lib/Array'
 import { Chain2 } from 'fp-ts/lib/Chain'
-import { tailRec, ChainRec2 } from 'fp-ts/ChainRec'
+import { tailRec, ChainRec2 } from 'fp-ts/lib/ChainRec'
 import * as E from 'fp-ts/lib/Either'
 import { Functor2 } from 'fp-ts/lib/Functor'
 import { Monad2 } from 'fp-ts/lib/Monad'
@@ -643,7 +643,7 @@ export const URI = 'Parser'
  */
 export type URI = typeof URI
 
-declare module 'fp-ts/lib/HKT' {
+declare module 'fp-ts/HKT' {
   interface URItoKind2<E, A> {
     Parser: Parser<E, A>
   }

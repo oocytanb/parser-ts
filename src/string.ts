@@ -3,7 +3,7 @@
  */
 import { Foldable, Foldable1 } from 'fp-ts/lib/Foldable'
 import { Functor, Functor1 } from 'fp-ts/lib/Functor'
-import { HKT, Kind, URIS } from 'fp-ts/lib/HKT'
+import { HKT, Kind, URIS } from 'fp-ts/HKT'
 import * as E from 'fp-ts/Either'
 import * as M from 'fp-ts/lib/Monoid'
 import * as O from 'fp-ts/lib/Option'
