@@ -1,0 +1,6 @@
+{
+  "main": "../lib/ParseResult.js",
+  "module": "../es6/ParseResult.js",
+  "typings": "../lib/ParseResult.d.ts",
+  "sideEffects": false
+}

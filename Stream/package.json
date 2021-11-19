@@ -1,0 +1,6 @@
+{
+  "main": "../lib/Stream.js",
+  "module": "../es6/Stream.js",
+  "typings": "../lib/Stream.d.ts",
+  "sideEffects": false
+}

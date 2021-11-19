@@ -1,0 +1,6 @@
+{
+  "main": "../lib/Parser.js",
+  "module": "../es6/Parser.js",
+  "typings": "../lib/Parser.d.ts",
+  "sideEffects": false
+}

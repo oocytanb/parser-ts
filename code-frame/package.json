@@ -1,0 +1,6 @@
+{
+  "main": "../lib/code-frame.js",
+  "module": "../es6/code-frame.js",
+  "typings": "../lib/code-frame.d.ts",
+  "sideEffects": false
+}

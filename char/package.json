@@ -1,0 +1,6 @@
+{
+  "main": "../lib/char.js",
+  "module": "../es6/char.js",
+  "typings": "../lib/char.d.ts",
+  "sideEffects": false
+}
